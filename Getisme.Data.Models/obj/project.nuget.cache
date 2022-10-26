@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hpz4zar7o7vqKYgqM7MZcXvqbJnOTYwtYEpw/eBAbNOKu43S88nag2i4mpJRf11K77R78VoKQQGGQj0q5SHHig==",
+  "success": true,
+  "projectFilePath": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj",
+  "expectedPackageFiles": [
+    "/home/jose/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

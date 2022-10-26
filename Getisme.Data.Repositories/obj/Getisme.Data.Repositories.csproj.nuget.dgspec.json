@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jose/Documentos/Cetrino/Getisme.Data.Repositories/Getisme.Data.Repositories.csproj": {}
+  },
+  "projects": {
+    "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/Getisme.Data.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/Getisme.Data.Interfaces.csproj",
+        "projectName": "Getisme.Data.Interfaces",
+        "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/Getisme.Data.Interfaces.csproj",
+        "packagesPath": "/home/jose/.nuget/packages/",
+        "outputPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jose/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj": {
+                "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj",
+        "projectName": "Getisme.Data.Models",
+        "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj",
+        "packagesPath": "/home/jose/.nuget/packages/",
+        "outputPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jose/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jose/Documentos/Cetrino/Getisme.Data.Repositories/Getisme.Data.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jose/Documentos/Cetrino/Getisme.Data.Repositories/Getisme.Data.Repositories.csproj",
+        "projectName": "Getisme.Data.Repositories",
+        "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Repositories/Getisme.Data.Repositories.csproj",
+        "packagesPath": "/home/jose/.nuget/packages/",
+        "outputPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jose/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/Getisme.Data.Interfaces.csproj": {
+                "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Interfaces/Getisme.Data.Interfaces.csproj"
+              },
+              "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj": {
+                "projectPath": "/home/jose/Documentos/Cetrino/Getisme.Data.Models/Getisme.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
